@@ -14,7 +14,7 @@ public class CalculatorServiceImplTest {
     private CalculatorService calculatorService;
 
     @BeforeEach
-    void setApp (){
+    void setApp() {
         calculatorService = new CalculatorServiceImpl();
     }
 
